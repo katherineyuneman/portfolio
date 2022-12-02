@@ -5,6 +5,7 @@ import { LeftHeader } from './styled-components/styleIndex';
 import NavBar from './NavBar';
 import { Routes, Route } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
 
 
 class App extends Component {
@@ -28,7 +29,10 @@ class App extends Component {
           </div>
         </LeftHeader>
         <Routes>
-          <Route path="/about" element={<AboutMe />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+        </Routes>
+        <Routes>
+          <Route path="/projects" element={<Projects />} />
         </Routes>
         </>
     );

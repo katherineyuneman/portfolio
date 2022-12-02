@@ -68,16 +68,44 @@ const LeftHeader = styled.div`
         height: 175px;
     }
     .right {
+        display: flex;
         height: 100%;
         width: 75%;
-        position: fixed;
+        position: absolute;
+        justify-content: center;
         z-index: 1;
         top: 0;
         overflow-x: scroll;
         padding-top: 10%;
         right: 0;
         background-color: white;
-        color: black
+        color: black;
+        p {
+            color: green;
+        }
+        .rightContentContainer{
+            top: 50%;
+            left: 50%;
+            padding-top: 30%;
+            /* background-color: blue; */
+            height: 20%;
+            width: 75%;
+            /* justify-content: center;
+            
+            
+            
+            
+            padding-right: 20%;
+            padding-left: 20%; */
+            text-align: center;
+            border-radius: 4px;
+            border: black;
+            /* padding-left: 50%;
+            padding-top: 40%;
+            width: 50%;
+            height: auto;
+            top: 40% */
+    }
     }
     .namePosition {
         z-index: 2;
@@ -102,6 +130,7 @@ const LeftHeader = styled.div`
         color: black;
         background-color: none;
     }
+    
     `
 
     export {

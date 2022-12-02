@@ -9,10 +9,10 @@ const NavBar = () => {
           <div className='staticLeft'>
             <nav>
                 <li>
-                About
+                <Link to="/aboutme">About</Link>
                 </li>
                 <li>
-                Projects
+                <Link to="/projects">Projects</Link>
                 </li>
                 <li>
                 Contact
