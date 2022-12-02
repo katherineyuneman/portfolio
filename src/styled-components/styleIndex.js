@@ -27,12 +27,14 @@ const LeftHeader = styled.div`
         height:100%;
         left: 0;
         background-color: #FAD02C;
-        color: white;
+        color: black;
         nav{
-            position: absolute;
+            text-align: right;
+            width: 10%;
+            position: fixed;
             top: 40%;
             /* left: 16.5%; */
-            padding-left: 21%;
+            padding-left: 12%;
             li{
                 list-style-type: none;
                 text-align: right;
@@ -42,8 +44,8 @@ const LeftHeader = styled.div`
         }
     }
     .rightSideUp {
-        position: absolute;
-        z-index: 5;
+        position: fixed;
+        z-index: 2;
         top: 20%;
         left: 24.5%;
         transform: translate(-50%, -50%);
@@ -54,7 +56,7 @@ const LeftHeader = styled.div`
         height: 175px;
     }
     .upsideDown {
-        position:absolute;
+        position:fixed;
         z-index: 4;
         top: 20%;
         left: 25%;
@@ -78,6 +80,7 @@ const LeftHeader = styled.div`
         color: black
     }
     .namePosition {
+        z-index: 2;
         float: left;
         width: 30%;
         justify-content: center;

@@ -3,11 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import { LeftHeader } from './styled-components/styleIndex';
 import NavBar from './NavBar';
+import { Routes, Route } from 'react-router-dom';
+import AboutMe from './components/AboutMe';
+
 
 class App extends Component {
   render() {
     return (
-      
+      <>
         <LeftHeader>
           <div className='staticLeft'>
             <img className="rightSideUp" src="https://github.com/katherineyuneman/project0yuneman/blob/main/images/yuneman.jpg?raw=true" alt="katherine" />
@@ -24,7 +27,10 @@ class App extends Component {
             </div>
           </div>
         </LeftHeader>
-      
+        <Routes>
+          <Route path="/about" element={<AboutMe />} />
+        </Routes>
+        </>
     );
   }
 }

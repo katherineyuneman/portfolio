@@ -1,5 +1,6 @@
 import React from 'react'
 import { LeftHeader } from './styled-components/styleIndex'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
