@@ -130,6 +130,9 @@ const LeftHeader = styled.div`
         color: black;
         background-color: none;
     }
+    .projectInfo{
+        text-align: left;
+    }
     
     `
 

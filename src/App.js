@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import { Routes, Route } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 
 class App extends Component {
@@ -33,6 +34,9 @@ class App extends Component {
         </Routes>
         <Routes>
           <Route path="/projects" element={<Projects />} />
+        </Routes>
+        <Routes>
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         </>
     );

@@ -7,7 +7,17 @@ const AboutMe = () => {
         <LeftHeader>
             <div className='right'>
                 <div className='rightContentContainer'>
-                <p>Experienced in Ruby on Rails and JavaScript based programming with a background in Product Ownership/Management.  I possess strong skills in cross-functional collaboration and problem solving that help teams of any size work efficiently.  I have a passion for tinkering with problems and testing to develop functional products from start to finish.  I am currently seeking a job as a full-stack engineer at a company that values its employees and fosters employee growth and development.</p>
+                    <h2>Hi, I'm Katherine and I'm a Software Engineer.</h2>
+                    <p>
+                        I recently graduated from the <a href="https://flatironschool.com/about-us/">Flatiron School</a> and am Experienced in Ruby on Rails and JavaScript based programming.
+                    </p>
+                    <p>
+                        I have a strong background in Product and Business Analytics.
+                    </p>
+                    <p>
+                        I possess strong skills in cross-functional collaboration and problem solving that help teams of any size work efficiently.
+                        I have a passion for tinkering with problems and testing to develop functional products from start to finish.
+                    </p>
                 </div>
             </div>
 
