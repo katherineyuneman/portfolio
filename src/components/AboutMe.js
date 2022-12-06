@@ -9,7 +9,7 @@ const AboutMe = () => {
                 <div className='rightContentContainer'>
                     <h2>Hi, I'm Katherine and I'm a Software Engineer.</h2>
                     <p>
-                        I recently graduated from the <a href="https://flatironschool.com/about-us/">Flatiron School</a> and am Experienced in Ruby on Rails and JavaScript based programming.
+                        I recently graduated from the <a target="_blank" href="https://flatironschool.com/about-us/">Flatiron School</a> and am Experienced in Ruby on Rails and JavaScript based programming.
                     </p>
                     <p>
                         I have a strong background in Product and Business Analytics.
