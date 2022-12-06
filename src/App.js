@@ -26,9 +26,14 @@ class App extends Component {
             </div>
           <NavBar/>
             <div className='right'>
+              <div className='rightContentContainer'>
+                <h2>Hi, I'm Katherine and I'm a Software Engineer.</h2>
+              </div>
             </div>
           </div>
-        </LeftHeader>
+
+        
+          </LeftHeader>
         <Routes>
           <Route path="/aboutme" element={<AboutMe />} />
         </Routes>
@@ -38,6 +43,7 @@ class App extends Component {
         <Routes>
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        
         </>
     );
   }
