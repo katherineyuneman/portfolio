@@ -1,9 +1,10 @@
-# create-react-app on Render
+# Personal Portfolio
 
-This is a minimal React static site bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+This is a minimal React static site built to house links to my portfolio projects.
 
-The sample app is deployed on Render at https://cra.onrender.com.
+# Resources
+Styled Components used for css styling of components.
 
-## Deployment
-
-Follow the guide at https://render.com/docs/deploy-create-react-app.
+## Deployed Portfolio App on Render
+www.katherine-yuneman.com
+https://kyuneman-portfolio.onrender.com/
