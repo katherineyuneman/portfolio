@@ -56,10 +56,6 @@ font-size: 15;
     }
 }
 
-
-    
-
-
 .nav-container {
   max-width: ${content_width};
   margin: 0 auto;
@@ -120,7 +116,7 @@ nav {
   right: 0;
   background: ${nav_background};
   height: ${nav_height};
-  width: ${nav_height};
+  width: 25%;
 }
 @media only screen and (max-width: 798px) {
   // Hamburger nav visible on mobile only
