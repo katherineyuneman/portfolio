@@ -1,9 +1,9 @@
 import React from 'react'
-import { LeftHeader } from '../styled-components/styleIndex'
+// import { LeftHeader } from '../styled-components/styleIndex'
 
 const Contact = () => {
   return (
-    <LeftHeader>
+    // <LeftHeader>
         <div className='right'>
                 <div className='rightContentContainer'>
                     <h2>Where to Find Me</h2>
@@ -17,7 +17,7 @@ const Contact = () => {
                 </div>
             </div>
 
-    </LeftHeader>
+    // </LeftHeader>
   )
 }
 

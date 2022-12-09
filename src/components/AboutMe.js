@@ -1,13 +1,12 @@
 import React from 'react'
-import { LeftHeader } from '../styled-components/styleIndex'
+// import { LeftHeader } from '../styled-components/styleIndex'
 
 const AboutMe = () => {
   return (
     <div>
-        <LeftHeader>
+        {/* <LeftHeader> */}
             <div className='right'>
                 <div className='rightContentContainer'>
-                    <h2>Hi, I'm Katherine and I'm a Software Engineer.</h2>
                     <p>
                         I recently graduated from the <a target="_blank" href="https://flatironschool.com/about-us/">Flatiron School</a> and am Experienced in Ruby on Rails and JavaScript based programming.
                     </p>
@@ -21,7 +20,7 @@ const AboutMe = () => {
                 </div>
             </div>
 
-        </LeftHeader>
+        {/* </LeftHeader> */}
       
     </div>
   )

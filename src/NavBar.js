@@ -1,13 +1,24 @@
 import React from 'react'
-import { LeftHeader } from './styled-components/styleIndex'
+// import { LeftHeader } from './styled-components/styleIndex'
 import { Link } from 'react-router-dom'
+import { NewContainer } from './styled-components/styleIndex'
 
 const NavBar = () => {
   return (
     <div>
-      <LeftHeader>
-          <div className='staticLeft'>
-            <nav>
+      <NewContainer>
+      <section class="navigation">
+        <div className='container'>
+          <div className='brand'>
+           <span>
+            <img className="rightSideUp" src="https://github.com/katherineyuneman/project0yuneman/blob/main/images/yuneman.jpg?raw=true" alt="katherine" />
+            < br/>
+            <h3>Katherine Yuneman</h3>
+            </span>
+          </div>
+          <nav>
+            <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+              <ul className='nav-list'>
                 <li>
                 <Link to="/aboutme">About</Link>
                 </li>
@@ -17,9 +28,12 @@ const NavBar = () => {
                 <li>
                 <Link to="/contact">Contact</Link>
                 </li>
-            </nav>
-          </div>
-      </LeftHeader>
+                </ul>
+          </nav>
+        </div>
+      </section>
+
+      </NewContainer>
     </div>
   )
 }
