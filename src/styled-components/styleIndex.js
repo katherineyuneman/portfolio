@@ -20,7 +20,8 @@ font-size: 15;
 .navigation {
   min-height: ${nav_height};
   background: ${nav_background};
-
+  background-repeat:no-repeat !important;
+  background-size:cover !important;
 }
 
 .brand {

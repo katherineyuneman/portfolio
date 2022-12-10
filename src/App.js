@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-// import { LeftHeader } from './styled-components/styleIndex';
-import NavBar from './NavBar';
 import { Routes, Route } from 'react-router-dom';
+import {NewContainer} from './styled-components/styleIndex'
+import NavBar from './NavBar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import {NewContainer} from './styled-components/styleIndex'
 
 class App extends Component {
   render() {
@@ -34,7 +32,9 @@ class App extends Component {
          
           </NewContainer>
           {/* </LeftHeader> */}
- 
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+        </Routes>
         <Routes>
           <Route path="/aboutme" element={<AboutMe />} />
         </Routes>
