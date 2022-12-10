@@ -7,7 +7,7 @@ const GeneralStyle = styled.div`
 `
 const content_width= `1000px`;
 const breakpoint = `799px`;
-const nav_height = `300px`;
+const nav_height = `225px`;
 const nav_background = `#262626`;
 const nav_font_color = `#ffffff`;
 const link_hover_color = `#2581DC`;
@@ -20,6 +20,7 @@ font-size: 15;
 .navigation {
   min-height: ${nav_height};
   background: ${nav_background};
+
 }
 
 .brand {
@@ -40,10 +41,10 @@ font-size: 15;
   img {
         justify-content: center;
         text-align: center;
-        min-width: 125px;
-        max-width: 200px;
+        min-width: 120px;
+        max-width: 125px;
         float: left;
-        width: 30%;
+        width: 25%;
         border-radius: 50%;
         background-color: green;
     }
@@ -51,7 +52,7 @@ font-size: 15;
         min-width: 120px;
         text-align: center;
         width: 30%;
-        max-width: 200px;
+        max-width: 125px;
         color: gray;
     }
 }
@@ -205,10 +206,16 @@ nav {
 }
 
 // Page content 
-article {
+.body {
+    h2{
+        text-align: center;
+    }
   max-width: ${content_width};
-  margin: 0 auto;
-  padding: 10px;
+  padding: 30px;
+    .contact {
+        text-align: center;
+    }
+  
 }
 
 @media only screen and (min-width: 481px) {

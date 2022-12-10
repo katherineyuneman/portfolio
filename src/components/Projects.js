@@ -1,10 +1,10 @@
 import React from 'react'
-// import { LeftHeader } from '../styled-components/styleIndex'
+import { NewContainer } from '../styled-components/styleIndex'
 
 const Projects = () => {
   return (
-    //   <LeftHeader>
-        <div className='right'>
+      <NewContainer>
+        <div className='body'>
             <div className='rightContentContainer'>
                 <h2>Projects</h2>
                 <h4 className='projectInfo'>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <br />
             </div>
         </div>
-    // </LeftHeader>
+    </NewContainer>
   )
 }
 export default Projects

@@ -12,9 +12,6 @@ const NavBar = () => {
       setMobileNavBarOpen('display')}
       else {setMobileNavBarOpen('none')}
     }
-    
-  
-
 
   return (
     <div>
