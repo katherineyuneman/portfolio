@@ -204,7 +204,6 @@ nav {
   }
 }
 
-
 // Page content 
 article {
   max-width: ${content_width};
@@ -319,11 +318,7 @@ const LeftHeader = styled.div`
             /* background-color: blue; */
             height: 20%;
             width: 75%;
-            /* justify-content: center;
-            
-            
-            
-            
+            /* justify-content: center;    
             padding-right: 20%;
             padding-left: 20%; */
             text-align: center;
