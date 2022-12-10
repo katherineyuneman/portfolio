@@ -126,8 +126,20 @@ nav {
   nav {
    width: 100%;
     padding: ${nav_height} 0 15px;
-    ul {
+    ul .none {
       display: none;
+      li {
+        float: none;
+        a {
+          padding: 15px;
+          line-height: 20px;
+        }
+        ul li a {
+          padding-left: 30px;
+        }
+      }
+    }
+    ul .display {
       li {
         float: none;
         a {
@@ -199,8 +211,6 @@ article {
   margin: 0 auto;
   padding: 10px;
 }
-
-
 
 @media only screen and (min-width: 481px) {
     
