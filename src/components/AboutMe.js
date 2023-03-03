@@ -20,7 +20,6 @@ const AboutMe = () => {
                     </p>
                 </div>
             </div>
-
         </ NewContainer>
       
     </div>
