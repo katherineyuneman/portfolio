@@ -1,11 +1,11 @@
 import React from 'react'
-import { NewContainer } from '../styled-components/styleIndex'
+// import { NewContainer } from '../styled-components/styleIndex'
 
 const Projects = () => {
   return (
-      <NewContainer>
-        <div className='body'>
-            <div className='rightContentContainer'>
+
+        <div>
+            <div >
                 <h2>Projects</h2>
                 <h4 className='projectInfo'>
                     <a target='_blank' href='https://picky-baby.onrender.com/'>
@@ -60,7 +60,7 @@ const Projects = () => {
                 <br />
             </div>
         </div>
-    </NewContainer>
+
   )
 }
 export default Projects

@@ -1,10 +1,10 @@
 import React from 'react'
-import { NewContainer } from '../styled-components/styleIndex'
+// import { NewContainer } from '../styled-components/styleIndex'
 
 const Contact = () => {
   return (
-    <NewContainer>
-        <div className='body'>
+
+        <div>
                     <h2>Where to Find Me</h2>
                     <p className='contact'>
                     <a target="_blank" href="mailto: kyuneman@gmail.com">Email </a> 
@@ -14,7 +14,7 @@ const Contact = () => {
 
                     </p>
                 </div>
-      </NewContainer>
+
   )
 }
 
