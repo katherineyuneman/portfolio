@@ -13,9 +13,9 @@ const skills = [
 const AboutMe = () => {
   return (
 <>
-    <div className="bg-white py-24 sm:py-32 pt-3">
+    <div className="bg-white py-24 sm:py-32 pt-36">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl sm:text-center">
+      <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hi, I'm Katherine Yuneman and I'm a Fullstack Developer.</h2>
         <p className="mt-6 text-lg leading-8 text-gray-600">
         I recently graduated from the <a target="_blank" href="https://flatironschool.com/about-us/">Flatiron School</a> and am experienced in Ruby on Rails and JavaScript based programming.
