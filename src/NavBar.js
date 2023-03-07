@@ -40,7 +40,7 @@ const NavBar = () => {
                 <h1 className="hidden lg:block text-white font-display text-5xl bg-gradient-to-r from-purple-500 to-pink-500 rounded-full pt-4 box-border h-20 w-auto text-center align-text-top">
                    K
                 </h1> */}
-                <a href="/aboutme" className="-m-1.5 p-1.5">
+                <a href="#" className="-m-1.5 p-1.5">
                 <img
                   className="block h-20 w-auto rounded-full sm:hidden"
                   src="https://github.com/katherineyuneman/portfolio/blob/master/public/K.png?raw=true"
@@ -57,7 +57,7 @@ const NavBar = () => {
                 <div className="hidden flex space-x-4 flex items-center pr-2 sm:block">
                   {navigation.map((item) => (
                     <Link className={classNames(
-                      item.current ? 'text-gray-900 hover:bg-gray-700 hover:text-white' : 'text-gray-900 hover:bg-gray-700 hover:text-white',
+                      item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                       'rounded-md px-3 py-2 text-sm font-medium'
                     )} aria-current={item.current ? 'page' : undefined} to={item.href}>{item.name}</Link>
                     
