@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 const NavBar = () => {
   return (
-    <Disclosure as="nav" className="bg-white drop-shadow-lg fixed w-full">
+    <Disclosure as="nav" className="bg-white drop-shadow-lg fixed w-full rounded-3xl">
     {({ open }) => (
       <>
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -40,6 +40,7 @@ const NavBar = () => {
                 <h1 className="hidden lg:block text-white font-display text-5xl bg-gradient-to-r from-purple-500 to-pink-500 rounded-full pt-4 box-border h-20 w-auto text-center align-text-top">
                    K
                 </h1> */}
+                <a href="/aboutme" className="-m-1.5 p-1.5">
                 <img
                   className="block h-20 w-auto rounded-full sm:hidden"
                   src="https://github.com/katherineyuneman/portfolio/blob/master/public/K.png?raw=true"
@@ -50,12 +51,13 @@ const NavBar = () => {
                   src="https://github.com/katherineyuneman/portfolio/blob/master/public/K.png?raw=true"
                   alt="Katherine Yuneman"
                 />
+                </a>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <div className="hidden flex space-x-4 flex items-center pr-2 sm:block">
                   {navigation.map((item) => (
                     <Link className={classNames(
-                      item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                      item.current ? 'text-gray-900 hover:bg-gray-700 hover:text-white' : 'text-gray-900 hover:bg-gray-700 hover:text-white',
                       'rounded-md px-3 py-2 text-sm font-medium'
                     )} aria-current={item.current ? 'page' : undefined} to={item.href}>{item.name}</Link>
                     
