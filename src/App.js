@@ -12,7 +12,6 @@ const App = () => {
       <>
       
       <NavBar/>
-
         <Routes>
           <Route path="/" element={<AboutMe />} />
         </Routes>
