@@ -9,7 +9,7 @@ const Projects = () => {
             name: 'Picky Baby',
             href:'https://picky-baby.onrender.com/',
             details: 'User-friendly food database for babies starting solid food.  View, add, and update recipes using these foods!',
-            frameworks:['Javascript', 'React', 'Ruby', 'Ruby on Rails', 'PostgreSQL'],
+            frameworks:['React', 'Ruby on Rails', 'PostgreSQL', 'Styled Components'],
             github: 'https://github.com/katherineyuneman/picky-baby-recipes',
             youtube: 'https://www.youtube.com/embed/FzK8tHM-nrA'
 
@@ -18,7 +18,7 @@ const Projects = () => {
             name: 'Borrow',
             href:'https://borrow-app-vtb8.onrender.com/',
             details: 'Simulation of a book rental subscription app where user can create an account add books to a cart each month.',
-            frameworks:['Javascript', 'React', 'Ruby', 'Ruby on Rails', 'PostgreSQL', 'Redux'],
+            frameworks:['React', 'Ruby on Rails', 'PostgreSQL', 'Redux', 'Styled Components'],
             github: 'https://github.com/katherineyuneman/capstone-borrow-app',
             youtube: 'https://www.youtube.com/embed/j2VkN9igOA0'
         },
@@ -26,7 +26,7 @@ const Projects = () => {
             name: 'Budget Tracker',
             href:'https://budget-tracker-k2k9.onrender.com/',
             details: 'Budget Tracker manages money by adding a new monthly budget limit, individual transactions and budget progress.',
-            frameworks:['Javascript', 'React', 'Ruby', 'Ruby on Rails', 'PostgreSQL'],
+            frameworks:['React', 'Ruby on Rails', 'PostgreSQL', 'Styled Components'],
             github: 'https://github.com/katherineyuneman/budget-tracker-v2',
             youtube: 'https://www.youtube.com/embed/ssHv3GT96CI'
         },
