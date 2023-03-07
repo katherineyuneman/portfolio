@@ -73,7 +73,7 @@ const Projects = () => {
       </div>
       <br/>
 
-            <div className="flex flex-wrap gap-x-3 gap-y-6 p-5">
+            <div className="flex flex-wrap gap-x-3 gap-y-6 p-5 place-content-center">
             {eachProject}
             </div>
             </div>
