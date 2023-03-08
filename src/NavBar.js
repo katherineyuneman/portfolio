@@ -40,7 +40,7 @@ const NavBar = () => {
                 <h1 className="hidden lg:block text-white font-display text-5xl bg-gradient-to-r from-purple-500 to-pink-500 rounded-full pt-4 box-border h-20 w-auto text-center align-text-top">
                    K
                 </h1> */}
-                <a href="#" className="-m-1.5 p-1.5">
+                <a href="/aboutme" className="-m-1.5 p-1.5">
                 <img
                   className="block h-20 w-auto rounded-full sm:hidden"
                   src="https://github.com/katherineyuneman/portfolio/blob/master/public/K.png?raw=true"
