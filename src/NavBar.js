@@ -1,9 +1,7 @@
-import { Fragment } from "react";
 import { Link } from "react-router-dom";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import {
   Bars3Icon,
-  BellIcon,
   EnvelopeIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
@@ -45,12 +43,6 @@ const NavBar = () => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  {/* <h1 className="block lg:hidden text-white font-display text-5xl bg-gradient-to-r from-purple-500 to-pink-500 rounded-full pt-4 box-border h-20 w-auto text-center align-text-top">
-                   K
-                </h1>
-                <h1 className="hidden lg:block text-white font-display text-5xl bg-gradient-to-r from-purple-500 to-pink-500 rounded-full pt-4 box-border h-20 w-auto text-center align-text-top">
-                   K
-                </h1> */}
                   <a href="/aboutme" className="-m-1.5 p-1.5">
                     <img
                       className="block h-20 w-auto rounded-full sm:hidden"

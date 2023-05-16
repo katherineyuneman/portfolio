@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
       </Routes>
       <Routes>
         <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Routes>
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </>
   );
