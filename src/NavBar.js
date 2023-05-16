@@ -11,7 +11,11 @@ import {
 const navigation = [
   { name: "About Me", href: "/aboutme", current: true },
   { name: "Projects", href: "/projects", current: false },
-  { name: "Resume", href: "/resume", current: false },
+  {
+    name: "Resume",
+    href: "https://github.com/katherineyuneman/portfolio/blob/3936d26205c18e462741bba9519bd8386693cbbd/public/Katherine%20Yuneman%20-%20Technical%20Resume%202023-04-28.pdf",
+    current: false,
+  },
 ];
 
 function classNames(...classes) {
